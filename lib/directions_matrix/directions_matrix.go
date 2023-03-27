@@ -42,6 +42,8 @@ const (
 	RoutingWalking RoutingProfile = "mapbox/walking"
 	// RoutingCycling mode for bicycle routing
 	RoutingCycling RoutingProfile = "mapbox/cycling"
+	// RoutingDrivingTraffic mode for automotive routing takes into account current and historic traffic
+	RoutingDrivingTraffic RoutingProfile = "mapbox/driving-traffic"
 )
 
 // DirectionMatrixResponse is the response from GetDirections
